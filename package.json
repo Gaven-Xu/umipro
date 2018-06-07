@@ -1,0 +1,15 @@
+{
+    "name": "umipro",
+    "version": "1.0.0",
+    "description": "",
+    "main": ".umirc.js",
+    "private": true,
+    "scripts": {
+        "test": "dev"
+    },
+    "keywords": [
+        "umi"
+    ],
+    "author": "Gaven",
+    "license": "ISC"
+}
