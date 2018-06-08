@@ -5,11 +5,14 @@
     "main": ".umirc.js",
     "private": true,
     "scripts": {
-        "test": "dev"
+        "test": "jest"
     },
     "keywords": [
         "umi"
     ],
     "author": "Gaven",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "react-icons": "^2.2.7"
+    }
 }
