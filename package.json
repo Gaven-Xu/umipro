@@ -1,19 +1,20 @@
 {
-  "name": "umipro",
-  "version": "1.0.0",
-  "description": "",
-  "main": ".umirc.js",
-  "private": true,
-  "scripts": {
-    "test": "jest"
-  },
-  "keywords": [
-    "umi"
-  ],
-  "author": "Gaven",
-  "license": "ISC",
-  "dependencies": {
-    "prop-types": "^15.6.1",
-    "react-icons": "^2.2.7"
-  }
+    "name": "umipro",
+    "version": "1.0.0",
+    "description": "",
+    "main": ".umirc.js",
+    "private": true,
+    "scripts": {
+        "start": "cross-env PORT=2018 umi dev"
+    },
+    "keywords": [
+        "umi"
+    ],
+    "author": "Gaven",
+    "license": "ISC",
+    "dependencies": {
+        "cross-env": "^5.1.6",
+        "prop-types": "^15.6.1",
+        "react-icons": "^2.2.7"
+    }
 }

@@ -1,10 +1,6 @@
 // 框架与组件
 import { PureComponent } from 'react';
 import { TabBar } from 'antd-mobile';
-// import { FaHome, FaHSquare, FaUsers } from 'react-icons/lib/fa'
-import FaHome from 'react-icons/lib/fa/home'
-import FaHSquare from 'react-icons/lib/fa/h-square'
-import FaUsers from 'react-icons/lib/fa/users'
 import router from 'umi/router';
 
 import styles from './BasicLayout.less';
@@ -33,15 +29,12 @@ export default class BasicLayout extends PureComponent {
             {
                 name: '精选',
                 path: '/',
-                icon: <FaHome />
             }, {
                 name: '书房',
                 path: '/book',
-                icon: <FaHSquare />
             }, {
                 name: '我的',
                 path: '/self',
-                icon: <FaUsers />
             }
         ];
 
